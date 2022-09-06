@@ -3,8 +3,8 @@ function main() {
     return (
       <div className="main">
         <h2>Hello</h2>
-        화면 넘기기
-
+        화면 넘어간댜아
+        HI
       </div>
     );
   }
