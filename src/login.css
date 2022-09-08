@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+body{
+    background-color: #D2D5B8;
+
+}
+
+.Login{
+    background-color: white;
+    display: flex;
+    height: 350px;
+    width: 400px;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    position:absolute;
+    top: 28%;
+    left: 38%;
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+
+#im{
+    margin-left: 42%;
+    margin-top: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.id > input{
+    width: 70%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+
+ .id{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -webkit-appearance: none;  /* 브라우저별 기본 스타일링 제거 */
+   -moz-appearance: none;
+  appearance: none;
+
+}
+
+.pw{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pw > input{
+    width: 70%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+
+/* .login{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 10%;
+    margin-left: 60px;
+} */
+
+.button{
+    background-color:#B3ACAF;
+    font-size: 16px;
+    color:#fff;
+    margin-top: 20px;
+    width: 70%;
+    height: 48px;
+    margin-left:60px ;
+
+}
